@@ -171,6 +171,15 @@ body {
   align-items: center;
 }
 
+.star-graphic {
+  z-index: 3; 
+  height: 50vh; 
+  position: fixed; 
+  right: -20vw; 
+  bottom: -17vw; 
+  opacity: 10%;
+}
+
 @media (orientation: portrait) {
   .wrapper {
     position: absolute;
